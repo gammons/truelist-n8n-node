@@ -19,8 +19,8 @@ export class Truelist implements INodeType {
 		defaults: {
 			name: 'Truelist',
 		},
-		inputs: [NodeConnectionType.Main],
-		outputs: [NodeConnectionType.Main],
+		inputs: ['main'],
+		outputs: ['main'],
 		credentials: [
 			{
 				name: 'truelistApi',
