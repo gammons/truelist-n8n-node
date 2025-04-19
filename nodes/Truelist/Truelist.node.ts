@@ -1,7 +1,12 @@
 // packages/nodes-base/nodes/Truelist/Truelist.node.ts
 import { IExecuteFunctions } from 'n8n-workflow';
 
-import { INodeExecutionData, INodeType, INodeTypeDescription, NodeConnectionType } from 'n8n-workflow';
+import {
+	INodeExecutionData,
+	INodeType,
+	INodeTypeDescription,
+	NodeConnectionType,
+} from 'n8n-workflow';
 
 export class Truelist implements INodeType {
 	description: INodeTypeDescription = {
@@ -14,8 +19,8 @@ export class Truelist implements INodeType {
 		defaults: {
 			name: 'Truelist',
 		},
-		inputs: [{ type: NodeConnectionType.Main }],
-		outputs: [{ type: NodeConnectionType.Main }],
+		inputs: [NodeConnectionType.Main],
+		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
 				name: 'truelistApi',
