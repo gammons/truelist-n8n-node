@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-truelist",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "N8n node for Truelist.io email verification API",
 	"keywords": ["n8n-community-node-package"],
 	"license": "MIT",
