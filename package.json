@@ -26,7 +26,7 @@
 		"format": "prettier nodes credentials --write",
 		"lint": "eslint",
 		"lintfix": "eslint --fix",
-		"prepublishOnly": "pnpm build && pnpm lint -c .eslintrc.prepublish.js nodes credentials package.json"
+		"prepublishOnly": "pnpm build && pnpm lint -c .eslintrc.prepublish.js"
 	},
 	"files": ["dist"],
 	"n8n": {
